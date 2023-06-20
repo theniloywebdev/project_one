@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+/* all common css end */
+.banner{
+    background: url(../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overly{
+    background: rgba(0, 0, 0, 0.0);
+    padding: 200px 0px;
+    text-align: center;
+}
+.overly .one{
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-style: 36px;
+}
+.overly .two{
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    font-style: 52px;
+    line-height: 45px;
+
+}
+.overly .three{
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 16px;
+    padding: 0 488px;
+}
+.overly .box a{
+    color: #fff;
+    font-weight: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-style: 800;
+    line-height: 100px;
+    border: 1px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    background: #998675;
+}
+
+.container{
+    width: 1000px;
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+.logo{
+    padding-top: 5px;
+    width: 190px;
+    float: left;
+}
+.menu{
+    width: 810px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    line-height: 70px;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:200;
+    font-style: 14px;
+}
